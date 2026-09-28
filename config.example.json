@@ -1,0 +1,15 @@
+{
+  "nml_path": "/path/to/your/Traktor/collection.nml",
+  "mik_path": "/path/to/your/MIK All Playlists.json",
+  "rb_path": "",
+  "source": "traktor",
+
+  "_optional": "The keys below are OPTIONAL — leave as-is on a normal install.",
+  "dropbox_root": "",
+  "nas_root": "",
+  "foundation_volume": "",
+
+  "_vibe_tags": "Vibe tags are mined from your track comments. A tag must appear on at least vibe_tag_min_count tracks to show (lower it for a small library). vibe_tag_exclude hides terms you never want as tags.",
+  "vibe_tag_min_count": 8,
+  "vibe_tag_exclude": []
+}

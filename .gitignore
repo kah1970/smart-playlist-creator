@@ -1,0 +1,49 @@
+# Personal config (copy config.example.json → config.json and set your paths)
+config.json
+config.json.bak*
+
+# App-generated local state (Deckard-side ratings store, written at runtime)
+deckard_ratings.json
+deckard_energy.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Local tooling
+.claude/
+
+# Personal ops / internal notes — kept locally, never shipped in the public repo
+SESSION-STATUS.md
+MIK-REANALYSIS.md
+MARKETING-BRIEF.html
+MOBILE-V2.md
+INTERNAL-SETUP.md
+
+# Local review/export copies of docs (Word/RTF) — not shipped
+*.rtf
+*.docx
+
+# Local library data / test copies — large binaries, never commit
+# (real source files live outside the repo; config.json points at them)
+*.nml
+*.db
+* copy*
+graphify-out/
+graph.json
+graph.html
+
+# Private intelligence audit artifacts and uppercase Traktor snapshots
+audit-out/
+*.NML
+
+# Working screenshots folder (canonical shots live in docs/img/)
+SPC Screenshots/
+.claudeignore

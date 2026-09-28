@@ -1,0 +1,9 @@
+flask>=3.0.0
+
+# Required if your source is rekordbox (config source="rekordbox"):
+#   reads your master.db AND powers the direct "→ RB" write.
+# Traktor users don't need it.
+pyrekordbox>=0.4.0
+
+# Optional — only needed for specific features:
+mutagen>=1.47.0      # write star ratings into song files (ID3)
