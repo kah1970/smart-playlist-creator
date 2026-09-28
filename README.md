@@ -59,7 +59,7 @@ on disk), or Windows yet (macOS today — Windows is on the roadmap).
 ## Install & run
 
 ```bash
-git clone <repo-url> smart-playlist-creator
+git clone https://github.com/kah1970/smart-playlist-creator.git
 cd smart-playlist-creator
 pip3 install -r requirements.txt     # or just run ./launch.sh (auto-installs Flask)
 cp config.example.json config.json   # then set your paths (or use the in-app config screen)

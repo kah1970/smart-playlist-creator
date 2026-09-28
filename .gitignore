@@ -47,3 +47,6 @@ audit-out/
 # Working screenshots folder (canonical shots live in docs/img/)
 SPC Screenshots/
 .claudeignore
+
+# Internal release tool (publishes the public snapshot) — never ships
+publish.sh

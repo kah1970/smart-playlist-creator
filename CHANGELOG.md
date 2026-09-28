@@ -8,6 +8,20 @@ Format loosely follows Keep-a-Changelog. Dates are the working session, not rele
 
 ---
 
+## 2026-09-28 — v1.0 public release 🎉
+
+- **Open-sourced** (MIT) at https://github.com/kah1970/smart-playlist-creator —
+  clean-slate snapshot, no development history.
+- **Harmonic mixing — energy-boost tier.** Suggestions now grade key fit:
+  exact > safe move (relative / ±1) > **energy boost (±2 hours)**, each labelled
+  and coloured distinctly. Harmonic Neighbours gains ENERGY BOOST +2 / −2 sections.
+- **Harmonic neighbours ranked by fit** — within a key group, same-genre and
+  closest-BPM tracks float to the top (was rating only); genre shown per row.
+- **Fresh-environment hardening** — Flask debug/reloader off by default
+  (opt in with `SPC_DEBUG=1`); `/api/reload` reports load failures honestly;
+  clearer `requirements.txt` (pyrekordbox needed for a rekordbox source).
+- **Docs** — screenshots, day-mode contrast fixes on key badges/labels.
+
 ## 2026-09-17 — public-release prep
 
 - **Fixed** — tracks whose filename contains an apostrophe or quote (e.g.
